@@ -1,0 +1,13 @@
+a=float(input("Enter fisrt item cost: "))
+a_1=float(input("Enter fisrt item quantity: "))
+b=float(input("Enter second item cost: "))
+b_1=float(input("Enter second item quantity: "))
+c=float(input("Enter third item cost: "))
+c_1=float(input("Enter third item quantity: "))
+
+total=(a*a_1)+(b*b_1)+(c*c_1)
+
+if(total>50):
+  total=total-((total/100)*10)
+
+print(f"Your total cost is: {total : .2f}")
